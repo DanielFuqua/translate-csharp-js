@@ -1,5 +1,6 @@
 function main() {
-  for(let n=1; n<=100; n++) {
+  for (let n = 1; n <= 100; n++) {
+    // if the remainder of n divided by 15 is 0
     if (n % 15 === 0) {
       console.log("fizzbuzz");
     } else if (n % 3 === 0) {
